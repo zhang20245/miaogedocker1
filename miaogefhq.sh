@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # 介绍
-echo "喵哥Linux防火墙管理，支持Debian，Ubuntu等操作系统"
+echo "喵哥Linux防火墙管理，支持Debian，Ubuntu等操作系统
+由张超华提供"
 
 # 检查脚本是否以root权限运行
 if [ "$(id -u)" != "0" ]; then
